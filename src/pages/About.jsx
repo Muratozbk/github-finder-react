@@ -19,8 +19,8 @@ function About() {
             </p>
             <p className="text-lg text-gray-400">
                 Layout By:
-                <a className="text-white" href="https://twitter.com/">
-                    {' '}  Martin Antonov
+                <a className="text-white" href="https://daisyui.com/" target="_blank">
+                    {' '}  <span className="text-primary">daisy</span>UI
                 </a>
             </p>
         </div>

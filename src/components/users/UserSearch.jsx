@@ -12,7 +12,7 @@ function UserSearch() {
         e.preventDefault()
 
         if (text === '') {
-            setAlert('Please enter something', 'error')
+            setAlert('Please enter a username', 'error')
         } else {
             searchUsers(text)
 
@@ -33,7 +33,7 @@ function UserSearch() {
                     <div className="form-control">
                         <div className="relative">
                             <input type="text" className="w-full pr-40 bg-gray-200 input input-lg text-black"
-                                placeholder="Search"
+                                placeholder="Search a User"
                                 value={text}
                                 onChange={handleChange}
                             />
